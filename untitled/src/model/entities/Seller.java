@@ -13,6 +13,10 @@ public class Seller implements Serializable {
     private Department department;
     private Double baseSalary;
 
+    public Seller(){
+
+    }
+
     public Seller(Integer id, String name, String email, Date birthDate, Department department, Double baseSalary) {
         this.id = id;
         this.name = name;
